@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Начало навбара -->
+  <header class="header">
+    <a href="mainPages/authorization.html" class="ri-user-line" id="user-btn"></a>
+    <a class="logo" href="index.html">RENTAL</a>
+    <div class="menu__btn" id="menu-btn">
+      <i class="ri-menu-line"></i>
+    </div>
+    <nav class="navbar">
+      <div class="shadow"></div>
+      <a href="index.html">home</a>
+      <a href="mainPages/about.html">about</a>
+      <a href="mainPages/rent.html">rent</a>
+      <a href="mainPages/contact.html">contact</a>
+    </nav>
+    <a href="mainPages/authorization.html" class="btn">Login</a>
+  </header>
+  <!-- Конец навбара -->
+  <!-- Начало первой секции -->
+  <section class="home" id="home">
+    <div class="home-container">
+      <h1>PREMIUM CAR RENTAL</h1>
+      <form action="/">
+        <div class="input__group">
+          <input type="text" name="location" id="location" placeholder="Russia, Moscow" />
+          <label for="location">Pick up & Return location</label>
+        </div>
+        <div class="input__group">
+          <input type="text" name="start" id="start" placeholder="Aug 16, 10:00 AM" />
+          <label for="start">Start</label>
+        </div>
+        <div class="input__group">
+          <input type="text" name="stop" id="stop" placeholder="Aug 18, 10:00 PM" />
+          <label for="stop">Stop</label>
+        </div>
+        <button class="btn">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+      <div class="image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+    </div>
+    <a href="#vehicles" class="scroll__down">
+      <i class="ri-arrow-down-line"></i>
+    </a>
+  </section>
+  <!-- Конец первой секции -->
+  <!-- Начало второй секции -->
+  <section class="partners">
+    <h2 class="heading"><span>our</span> partners</h2>
+    <div class="box-container">
+      <div class="image">
+        <img src="assets/p-1.png" alt="p-1">
+
+      </div>
+      <div class="image">
+        <img src="assets/p-2.png" alt="p-2">
+
+      </div>
+      <div class="image">
+        <img src="assets/p-3.png" alt="p-3">
+
+      </div>
+      <div class="image">
+        <img src="assets/p-4.png" alt="p-4">
+
+      </div>
+    </div>
+
+  </section>
+<!-- Конец второй секции -->
+<!-- Начало третьей секции -->
+  <section class="vehicles" id="vehicles">
+    <h2 class="heading">WIDE RANGE OF <span>VEHICLES</span></h2>
+    <div class="box-container">
+      <div class="box">
+        <img src="assets/range-1.jpg" alt="range" />
+        <div class="box-details">
+          <h4>CARS</h4>
+          <a href="mainPages/rent.html#cars"><i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/range-2.jpg" alt="range" />
+        <div class="box-details">
+          <h4>SUVS</h4>
+          <a href="mainPages/rent.html#suvs"><i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/range-3.jpg" alt="range" />
+        <div class="box-details">
+          <h4>VANS</h4>
+          <a href="mainPages/rent.html#vans"><i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="assets/range-4.jpg" alt="range" />
+        <div class="box-details">
+          <h4>ELECTRIC</h4>
+          <a href="mainPages/rent.html#electric"><i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Конец третьей секции -->
+<!-- Начало четвертой секции -->
+  <section class="location">
+    <div class="image">
+      <img src="assets/location.png" alt="location" />
+    </div>
+    <div class="content">
+      <h2>FIND CAR IN YOUR LOCATIONS</h2>
+      <p>
+        Discover the perfect vehicle tailored to your needs, wherever you are.
+        Our 'Find Car in Your Locations' feature allows you to effortlessly
+        search and select from our premium fleet available near you. Whether
+        you're looking for a luxury sedan, a spacious SUV, or a sporty
+        convertible, our easy-to-use tool ensures you find the ideal car for
+        your journey. Simply enter your location, and let us connect you with
+        top-tier vehicles ready for rental.
+      </p>
+        <button class="btn">Find a Location</button>
+    </div>
+  </section>
+<!-- Конец четвертой секции -->
+<!-- Начало пятой секции -->
+  <section class="select__container" id="ride">
+    <h2 class="heading"><span>PICK YOUR DREAM</span> CAR TODAY</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="select__card">
+            <img src="assets/select-1.png" alt="select" />
+            <div class="select__info active">
+              <div class="select__info__card">
+                <span><i class="ri-speed-up-line"></i></span>
+                <h4>200 <span>km/h</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-settings-5-line"></i></span>
+                <h4>6 <span>speed</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-roadster-line"></i></span>
+                <h4>5 <span>seats</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-signpost-line"></i></span>
+                <h4>15 <span>milage</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="select__card">
+            <img src="assets/select-2.png" alt="select" />
+            <div class="select__info">
+              <div class="select__info__card">
+                <span><i class="ri-speed-up-line"></i></span>
+                <h4>215 <span>km/h</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-settings-5-line"></i></span>
+                <h4>6 <span>speed</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-roadster-line"></i></span>
+                <h4>5 <span>seats</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-signpost-line"></i></span>
+                <h4>16 <span>milage</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="select__card">
+            <img src="assets/select-3.png" alt="select" />
+            <div class="select__info">
+              <div class="select__info__card">
+                <span><i class="ri-speed-up-line"></i></span>
+                <h4>306 <span>km/h</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-settings-5-line"></i></span>
+                <h4>6 <span>speed</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-roadster-line"></i></span>
+                <h4>5 <span>seats</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-signpost-line"></i></span>
+                <h4>12 <span>milage</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="select__card">
+            <img src="assets/select-4.png" alt="select" />
+            <div class="select__info">
+              <div class="select__info__card">
+                <span><i class="ri-speed-up-line"></i></span>
+                <h4>350 <span>km/h</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-settings-5-line"></i></span>
+                <h4>6 <span>speed</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-roadster-line"></i></span>
+                <h4>2 <span>seats</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-signpost-line"></i></span>
+                <h4>08 <span>milage</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="select__card">
+            <img src="assets/select-5.png" alt="select" />
+            <div class="select__info">
+              <div class="select__info__card">
+                <span><i class="ri-speed-up-line"></i></span>
+                <h4>254 <span>km/h</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-settings-5-line"></i></span>
+                <h4>6 <span>speed</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-roadster-line"></i></span>
+                <h4>5 <span>seats</span></h4>
+              </div>
+              <div class="select__info__card">
+                <span><i class="ri-signpost-line"></i></span>
+                <h4>10 <span>milage</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form action="/" class="select__form">
+      <div class="select__price">
+        <span><i class="ri-price-tag-3-line"></i></span>
+        <div><span id="select-price">225</span> /day</div>
+      </div>
+      <div class="select__btns">
+        <a href="cars/urus.html" id="view-details" class="btn">View Details</a>
+        <a id="rent-now" class="btn">Rent Now</a>
+      </div>
+    </form>
+  </section>
+<!-- Конец пятой секции -->
+<!-- Начало шестой секции -->
+  <section class="blogs">
+    <h2 class="heading">STORIES BEHIND <span>THE WHEEL</span></h2>
+    <div class="box-container">
+      <div class="box">
+        <a href="blogs/blog1.html">
+           <div class="info">
+          <span>12</span>
+          <div>
+            <p>January</p>
+            <p>2024</p>
+          </div>
+        </div>
+        <h4>Adventures on the Open Road</h4>
+        <p>
+          Join us as we dive into the exhilarating stories of travelers who
+          embarked on unforgettable journeys with PREMIUM CAR RENTAL.
+        </p>
+        <img src="assets/story-1.jpg" alt="story" />
+        </a>
+       
+      </div>
+      <div class="box">
+        <a href="blogs/blog2.html">
+          <div class="info">
+          <span>04</span>
+          <div>
+            <p>March</p>
+            <p>2024</p>
+          </div>
+        </div>
+        <h4>Luxury and Comfort: Experiences</h4>
+        <p>
+          In this series, we highlight the luxurious touches, unparalleled
+          comfort, and exceptional service that make every ride.
+        </p>
+        <img src="assets/story-2.jpg" alt="story" />
+        </a>
+      </div>
+      <div class="box">
+        <a href="blogs/blog3.html">
+           <div class="info">
+          <span>18</span>
+          <div>
+            <p>June</p>
+            <p>2024</p>
+          </div>
+        </div>
+        <h4>Cars that Adapt to Your Lifestyle</h4>
+        <p>
+          Read about how our versatile vehicles have seamlessly integrated
+          into the lives of professionals and families alike.
+        </p>
+        <img src="assets/story-3.jpg" alt="story" />
+        </a>
+      </div>
+    </div>
+  </section>
+<!-- Конец шестой секции -->
+<!-- Начало седьмой секции -->
+  <section class="banner__container">
+    <div class="banner__wrapper">
+      <img src="assets/banner-1.png" alt="banner" />
+      <img src="assets/banner-2.png" alt="banner" />
+      <img src="assets/banner-3.png" alt="banner" />
+      <img src="assets/banner-4.png" alt="banner" />
+      <img src="assets/banner-5.png" alt="banner" />
+      <img src="assets/banner-6.png" alt="banner" />
+      <img src="assets/banner-7.png" alt="banner" />
+      <img src="assets/banner-8.png" alt="banner" />
+      <img src="assets/banner-9.png" alt="banner" />
+      <img src="assets/banner-10.png" alt="banner" />
+    </div>
+  </section>
+<!-- Конец седьмой секции -->
+<!-- Начало восьмой секции -->
+  <section class="download">
+    <div class="section__container download__container">
+      <div class="download__content">
+        <h2 class="section__header">PREMIUM CAR RENTAL</h2>
+        <div class="download__links">
+          <a href="#">
+            <img src="assets/apple.png" alt="apple" />
+          </a>
+          <a href="#">
+            <img src="assets/google.png" alt="google" />
+          </a>
+        </div>
+      </div>
+      <div class="download__image">
+        <img src="assets/download.png" alt="download" />
+      </div>
+    </div>
+  </section>
+<!-- Конец восьмой секции -->
+<!-- Начало девятой секции -->
+  <section class="news" id="contact">
+    <div class="section__container news__container">
+      <h2 class="section__header">Stay up to date on all the latest news.</h2>
+      <form action="/">
+        <input type="text" placeholder="Your email" />
+        <button>
+          <i class="ri-send-plane-fill"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+<!-- Конец девятой секции -->
+<!-- Начало футера -->
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h4>Resources</h4>
+        <ul class="footer__links">
+          <li><a href="#">Installation Manual</a></li>
+          <li><a href="#">Release Note</a></li>
+          <li><a href="#">Community Help</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <ul class="footer__links">
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Features</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 By Front<span>Hub</span>. All rights reserved.
+    </div>
+  </footer>
+  <!-- Конец футера -->
+  <!-- Начало кнопки возврата в начало -->
+  <a href="#home" id="scroll-top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!-- Конец кнопки возврата в начало -->
+<!-- Начало формы аренды авто -->
+  <div class="rent-form" id="rent-form">
+    <form action="/">
+      <div class="input-group">
+        <input required type="text" name="location" id="location" placeholder="Russia, Moscow" />
+        <label for="location">Pick up & Return location</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="start" id="start" placeholder="Aug 16, 10:00 AM" />
+        <label for="start">Start</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="stop" id="stop" placeholder="Aug 18, 10:00 PM" />
+        <label for="stop">Stop</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="username" id="username" placeholder="Username" />
+        <label for="username">username</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="phone" id="phone" placeholder="8(111)222-33-44" />
+        <label for="phone">phone</label>
+      </div>
+      <button type="submit" class="btn" id="rent-form-btn">rent now</button>
+    </form>
+    <i class="ri-close-line" id="rent-form-close"></i>
+  </div>
+<!-- Конец формы аренды авто -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/rentForm.js"></script>
+</body>
+
+</html>
