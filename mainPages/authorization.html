@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <!-- Начало навбара -->
+  <header class="header">
+    <a href="authorization.html" class="ri-user-line" id="user-btn"></a>
+    <a class="logo" href="../index.html">RENTAL</a>
+    <div class="menu__btn" id="menu-btn">
+      <i class="ri-menu-line"></i>
+    </div>
+    <nav class="navbar">
+      <div class="shadow"></div>
+      <a href="../index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="rent.html">rent</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <a href="../mainPages/authorization.html" class="btn">Login</a>
+  </header>
+  <!-- Конец навбара -->
+  <!-- Начало первой секции -->
+  <section class="authorization">
+    <div class="wrapper">
+      <div class="form-wrapper sign-up">
+        <form action="#">
+          <h2>sign up</h2>
+          <div class="input-group">
+            <input id="username" type="text" required>
+            <label for="username">username</label>
+          </div>
+          <div class="input-group">
+            <input id="email" type="email" required>
+            <label for="email">email</label>
+          </div>
+          <div class="input-group">
+            <input id="password" type="password" required>
+            <label for="password">password</label>
+          </div>
+          <div class="forgot-pass">
+            <a href="#">forgot password?</a>
+          </div>
+          <button type="submit" class="btn-auth">sign up</button>
+          <div class="sign-link">
+            <p>already have an account?
+              <a href="#" class="signIn-link">sign in</a>
+            </p>
+
+          </div>
+        </form>
+      </div>
+      <div class="form-wrapper sign-in">
+        <form action="#">
+          <h2>login</h2>
+          <div class="input-group">
+            <input id="username" type="text" required>
+            <label for="username">username</label>
+          </div>
+          <div class="input-group">
+            <input id="password" type="password" required>
+            <label for="password">password</label>
+          </div>
+          <div class="forgot-pass">
+            <a href="#">forgot password?</a>
+          </div>
+          <button type="submit" class="btn-auth">login</button>
+          <div class="sign-link">
+            <p>don't have an account?
+              <a href="#" class="signUp-link">sign up</a>
+            </p>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Конец первой секции -->
+  <!-- Начало второй секции -->
+  <section class="download auth">
+    <div class="section__container download__container">
+      <div class="download__content">
+        <h2 class="section__header">PREMIUM CAR RENTAL</h2>
+        <div class="download__links">
+          <a href="#">
+            <img src="../assets/apple.png" alt="apple" />
+          </a>
+          <a href="#">
+            <img src="../assets/google.png" alt="google" />
+          </a>
+        </div>
+      </div>
+      <div class="download__image">
+        <img src="../assets/download.png" alt="download" />
+      </div>
+    </div>
+  </section>
+  <!-- Конец второй секции -->
+  <!-- Начало третьей секции -->
+  <section class="news" id="contact">
+    <div class="section__container news__container">
+      <h2 class="section__header">Stay up to date on all the latest news.</h2>
+      <form action="/">
+        <input type="text" placeholder="Your email" />
+        <button>
+          <i class="ri-send-plane-fill"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Конец третьей секции -->
+  <!-- Начало футера -->
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h4>Resources</h4>
+        <ul class="footer__links">
+          <li><a href="#">Installation Manual</a></li>
+          <li><a href="#">Release Note</a></li>
+          <li><a href="#">Community Help</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <ul class="footer__links">
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Features</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 By Front<span>Hub</span>. All rights reserved.
+    </div>
+  </footer>
+  <!-- Конец футера -->
+  <!-- Начало кнопки возврата в начало -->
+  <a href="#home" id="scroll-top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!-- Конец кнопки возврата в начало -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/auth.js"></script>
+</body>
+
+</html>

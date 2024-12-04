@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+  <!-- Начало навбара -->
+  <header class="header">
+    <a href="authorization.html" class="ri-user-line" id="user-btn"></a>
+    <a class="logo" href="../index.html">RENTAL</a>
+    <div class="menu__btn" id="menu-btn">
+      <i class="ri-menu-line"></i>
+    </div>
+    <nav class="navbar">
+      <div class="shadow"></div>
+      <a href="../index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="rent.html">rent</a>
+      <a href="contact.html">contact</a>
+    </nav>
+    <a href="authorization.html" class="btn">Login</a>
+  </header>
+  <!-- Конец навбара -->
+  <!-- Начало первой секции -->
+  <section class="home" id="home">
+    <div class="home-container">
+      <h1>PREMIUM CAR RENTAL</h1>
+      <form action="/">
+        <div class="input__group">
+          <input type="text" name="location" id="location" placeholder="Russia, Moscow" />
+          <label for="location">Pick up & Return location</label>
+        </div>
+        <div class="input__group">
+          <input type="text" name="start" id="start" placeholder="Aug 16, 10:00 AM" />
+          <label for="start">Start</label>
+        </div>
+        <div class="input__group">
+          <input type="text" name="stop" id="stop" placeholder="Aug 18, 10:00 PM" />
+          <label for="stop">Stop</label>
+        </div>
+        <button class="btn">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+      <div class="image">
+        <img src="../assets/header.png" alt="header" />
+      </div>
+    </div>
+    <a href="#rent" class="scroll__down">
+      <i class="ri-arrow-down-line"></i>
+    </a>
+  </section>
+  <!-- Конец первой секции -->
+  <!-- Начало второй секции -->
+  <section class="rent" id="rent">
+    <h2 class="heading">rent car <span>now</span></h2>
+    <h3 id="cars" class="heading"><span>our</span> cars</h3>
+    <div class="box-container">
+      <div class="box">
+        <img src="../assets/rent/rent-1.png" alt="select-3">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>306 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>5 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>12 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="../cars/bmw5.html" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-2.png" alt="select-4">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="../cars/ferrari.html" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-3.png" alt="select-4">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-4.png" alt="select-4">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-5.png" alt="select-4">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-6.png" alt="select-4">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+    </div>
+    <h3 id="suvs" class="heading">our <span>suvs</span></h3>
+    <div class="box-container">
+      <div class="box">
+        <img src="../assets/rent/rent-7.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="../cars/urus.html" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-8.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="../cars/bmwX.html" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-9.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="../cars/cullinun.html" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-10.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-11.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-12.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+    </div>
+    <h3 id="vans" class="heading"><span>our</span> vans</h3>
+    <div class="box-container">
+      <div class="box">
+        <img src="../assets/rent/rent-13.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-14.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-15.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-16.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-17.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+    </div>
+    <h3 id="electric" class="heading">our <span>electric</span></h3>
+    <div class="box-container">
+      <div class="box">
+        <img src="../assets/rent/rent-18.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-19.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-20.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-21.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="../assets/rent/rent-22.png" alt="select-1">
+        <div class="select__info">
+          <div class="select__info__card">
+            <span><i class="ri-speed-up-line"></i></span>
+            <h4>350 <span>km/h</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-settings-5-line"></i></span>
+            <h4>6 <span>speed</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-roadster-line"></i></span>
+            <h4>2 <span>seats</span></h4>
+          </div>
+          <div class="select__info__card">
+            <span><i class="ri-signpost-line"></i></span>
+            <h4>08 <span>milage</span></h4>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href="#" class="btn">view details</a>
+          <a id="rent-now" class="btn">rent now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Конец второй секции -->
+  <!-- Начало третьей секции -->
+  <section class="download">
+    <div class="section__container download__container">
+      <div class="download__content">
+        <h2 class="section__header">PREMIUM CAR RENTAL</h2>
+        <div class="download__links">
+          <a href="#">
+            <img src="../assets/apple.png" alt="apple" />
+          </a>
+          <a href="#">
+            <img src="../assets/google.png" alt="google" />
+          </a>
+        </div>
+      </div>
+      <div class="download__image">
+        <img src="../assets/download.png" alt="download" />
+      </div>
+    </div>
+  </section>
+  <!-- Конец третьей секции -->
+  <!-- Начало четвертой секции -->
+  <section class="news" id="contact">
+    <div class="section__container news__container">
+      <h2 class="section__header">Stay up to date on all the latest news.</h2>
+      <form action="/">
+        <input type="text" placeholder="Your email" />
+        <button>
+          <i class="ri-send-plane-fill"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- Конец четвертой секции -->
+  <!-- Начало футера -->
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h4>Resources</h4>
+        <ul class="footer__links">
+          <li><a href="#">Installation Manual</a></li>
+          <li><a href="#">Release Note</a></li>
+          <li><a href="#">Community Help</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul class="footer__links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <ul class="footer__links">
+          <li><a href="#">Demo</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Features</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Follow Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 By Front<span>Hub</span>. All rights reserved.
+    </div>
+  </footer>
+  <!-- Конец футера -->
+  <!-- Начало кнопки возврата в начало -->
+  <a href="#home" id="scroll-top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <!-- Конец кнопки возврата в начало -->
+  <!-- Начало формы аренды авто -->
+  <div class="rent-form" id="rent-form">
+    <form action="/">
+      <div class="input-group">
+        <input required type="text" name="location" id="location" placeholder="Russia, Moscow" />
+        <label for="location">Pick up & Return location</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="start" id="start" placeholder="Aug 16, 10:00 AM" />
+        <label for="start">Start</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="stop" id="stop" placeholder="Aug 18, 10:00 PM" />
+        <label for="stop">Stop</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="username" id="username" placeholder="Username" />
+        <label for="username">username</label>
+      </div>
+      <div class="input-group">
+        <input required type="text" name="phone" id="phone" placeholder="8(111)222-33-44" />
+        <label for="phone">phone</label>
+      </div>
+      <button type="submit" class="btn" id="rent-form-btn">rent now</button>
+    </form>
+    <i class="ri-close-line" id="rent-form-close"></i>
+  </div>
+  <!-- Конец формы аренды авто -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/rentForm.js"></script>
+</body>
+
+</html>
